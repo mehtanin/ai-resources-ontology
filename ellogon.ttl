@@ -22,7 +22,7 @@
   dcterms:bibliographicCitation "https://arxiv.org/pdf/cs/0205017"^^xsd:anyURI ;
   dcterms:creator :ncsr .
 
-:ellogon-distro: a owl:NamedIndividual, ai:StandAlone ;
+:ellogon-distro a owl:NamedIndividual, ai:StandAlone ;
                    ai:atTRL :trl9 ;
                    ai:accompanied_by :ellogon-devguide ,
                                      :ellogon-specs ,
