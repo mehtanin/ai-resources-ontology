@@ -21,7 +21,7 @@
   dcterms:creator :upmc ;
   dcterms:creator :thales .
 
-:wildcatpytorch-distro: a owl:NamedIndividual, ai:Library ;
+:wildcatpytorch-distro a owl:NamedIndividual, ai:Library ;
                    ai:atTRL :trl4 ;
                    ai:under_license :mit ;
                    ai:language_used <http://dbpedia.org/resource/Python_(language)> ;
