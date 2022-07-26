@@ -45,7 +45,7 @@ ai:Company rdf:type owl:Class;
            rdfs:label "Company"@IRI-based . 
 #  --------------------------- Class  6------------------------- 
 ai:Library rdf:type owl:Class; 
-           rdfs:label "Library122"@en . 
+           rdfs:label "Library10"@en . 
 #  --------------------------- Class  7------------------------- 
 foaf:Organization rdf:type owl:Class; 
                   rdfs:label "Organization"@IRI-based . 
