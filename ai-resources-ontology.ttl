@@ -1,0 +1,60 @@
+#################################################################
+###  Generated with the experimental alpha version of the TTL exporter of WebVOWL (version 1.1.7)  http://visualdataweb.de/webvowl/   ###
+#################################################################
+
+@prefix : 		<No IRI set> .
+@prefix rdf: 		<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: 		<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: 		<http://www.w3.org/2002/07/owl#> .
+@prefix xsd: 		<http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: 		<http://purl.org/dc/elements/1.1/> .
+@prefix xml: 		<http://www.w3.org/XML/1998/namespace> .
+@prefix grddl: 		<http://www.w3.org/2003/g/data-view#> .
+@prefix dcterms: 		<http://purl.org/dc/terms/> .
+@prefix dct: 		<http://purl.org/dc/terms/> .
+@prefix ai: 		<http://www.ai4eu.eu/ontologies/core#> .
+@prefix cso: 		<https://cso.kmi.open.ac.uk/topics/> .
+@prefix skos: 		<http://www.w3.org/2004/02/skos/core#> .
+@prefix : 		<http://www.ai4eu.eu/ontologies/data#> .
+@prefix foaf: 		<http://xmlns.com/foaf/0.1/> .
+@base 			<No IRI set> .
+
+<No IRI set> rdf:type owl:Ontology ;
+             dc:title "undefined"@en;
+             dc:description "undefined"@en . 
+#################################################################
+
+###  Class Definitions (Number of Classes) 11 ###
+#  --------------------------- Class  0------------------------- 
+skos:ConceptScheme rdf:type owl:Class; 
+                   rdfs:label "ConceptScheme"@IRI-based . 
+#  --------------------------- Class  1------------------------- 
+ai:Manual rdf:type owl:Class; 
+          rdfs:label "Manual"@IRI-based . 
+#  --------------------------- Class  2------------------------- 
+skos:Concept rdf:type owl:Class; 
+             rdfs:label "Concept"@IRI-based . 
+#  --------------------------- Class  3------------------------- 
+ai:ComputationalResource rdf:type owl:Class; 
+                         rdfs:label "ComputationalResource"@IRI-based . 
+#  --------------------------- Class  4------------------------- 
+ai:TechnologyReadinessLevel rdf:type owl:Class; 
+                            rdfs:label "TechnologyReadinessLevel"@IRI-based . 
+#  --------------------------- Class  5------------------------- 
+ai:Company rdf:type owl:Class; 
+           rdfs:label "Company"@IRI-based . 
+#  --------------------------- Class  6------------------------- 
+ai:Library rdf:type owl:Class; 
+           rdfs:label "LibraryEdited12"@en . 
+#  --------------------------- Class  7------------------------- 
+foaf:Organization rdf:type owl:Class; 
+                  rdfs:label "Organization"@IRI-based . 
+#  --------------------------- Class  8------------------------- 
+dcterms:LicenseDocument rdf:type owl:Class; 
+                        rdfs:label "LicenseDocument"@IRI-based . 
+#  --------------------------- Class  9------------------------- 
+ai:StandAlone rdf:type owl:Class; 
+              rdfs:label "StandAlone"@IRI-based . 
+#  --------------------------- Class  10------------------------- 
+ai:SoftwareComponent rdf:type owl:Class; 
+                     rdfs:label "SoftwareComponent"@IRI-based . 
